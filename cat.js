@@ -69,7 +69,7 @@ fontLoader.load("/fonts/helvetiker_regular.typeface.json", (font) => {
   // text.position.set(-5, 0, -5); // Lower and push back along Z-axis
   text.position.set(-5, 0, -5);
   text.rotation.y = (45 * Math.PI) / 180;
-  text.scale.set(1.5, 1.5, 1.5); // Enlarge while keeping proportions
+  text.scale.set(1, 1, 1); // Enlarge while keeping proportions
   scene.add(text);
 
   // Animation to gently float the label
